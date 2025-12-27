@@ -1,0 +1,18 @@
+baseURL = 'http://20.250.145.69/'
+languageCode = 'en-us'
+title = "Ibrahim's Auto Repair"
+theme = 'beautifulhugo'
+
+[params]
+  # This adds the main text on your landing page
+  title = "Ibrahim's Auto Repair"
+  subtitle = "Quality Service You Can Trust"
+  
+  # This fixes your image issue
+  # Place your image in: static/img/hero.jpg
+  bigimg = [{src = "img/hero.jpg", desc = "Professional Mechanic Services"}]
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
